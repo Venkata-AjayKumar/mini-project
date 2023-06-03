@@ -1,0 +1,33 @@
+.container{
+    
+display:flex;
+
+width:90vw;
+margin:30px auto;
+   
+}
+.panel{
+height:90vh;
+background-repeat: no-repeat;
+background-size: auto 100%;
+background-position: center;
+margin:10px;
+border-radius: 5px;
+transition: 2s;
+
+
+}
+.panel h3{
+ 
+
+    opacity:0;
+    transform: opacity 2s;
+    
+}
+.active{
+    flex:5;
+}
+.active h3{
+opacity: 1;
+color:white;
+}
